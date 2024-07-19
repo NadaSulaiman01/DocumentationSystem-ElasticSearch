@@ -32,3 +32,4 @@ C:\Users\nsulaiman.EJADA\source\repos\Docs\Docs\obj\Debug\net8.0\Docs.genruntime
 C:\Users\nsulaiman.EJADA\source\repos\Docs\Docs\obj\Debug\net8.0\ref\Docs.dll
 C:\Users\nsulaiman.EJADA\source\repos\Docs\Docs\bin\Debug\net8.0\Elasticsearch.Net.dll
 C:\Users\nsulaiman.EJADA\source\repos\Docs\Docs\bin\Debug\net8.0\Nest.dll
+C:\Users\nsulaiman.EJADA\source\repos\Docs\Docs\obj\Debug\net8.0\Docs.sourcelink.json

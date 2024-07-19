@@ -41,7 +41,7 @@ namespace Docs.Controllers
         {
             var documents = new List<Document>();
             var result = _elasticClient.SearchAsync<Document>(
-                s => s.Query(q => q.MatchAll()));
+                s => s.Query(q => q.MatchAll()).Size(10000));
 
             documents = result.Result.Documents.ToList();
 
@@ -87,6 +87,7 @@ namespace Docs.Controllers
             //);
 
             var searchResponse = _elasticClient.Search<DocumentDto>(s => s
+            .Size(10000)
     .Query(q => q
         .Bool(b => b
             .Should(sh => sh
